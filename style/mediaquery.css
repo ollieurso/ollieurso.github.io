@@ -1,0 +1,52 @@
+/*
+
+@media only screen and (min-width: 500px) {
+    iframe {
+        width: 300px;
+        height: 169px;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    iframe {
+        width: 500px;
+        height: 281px;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    iframe {
+        width: 720px;
+        height: 405px;
+    }
+}*/
+
+@media only screen and (min-width: 700px) {
+    .leftcol {
+        float: left;
+    }
+    .rightcol {
+        float: right;
+    }
+    .column {
+        width: 45%;
+    }
+    p {
+        font-size: 20px;
+        max-width: 720px;
+        position: relative;
+    }
+    .column p {
+        text-align: center;
+    }
+    h1 {
+        font-size: 32px;
+    }
+    .button {
+        width: 230px;
+        height: 60px;
+    }
+    .button h1 {
+        line-height: 60px;
+    }
+}
