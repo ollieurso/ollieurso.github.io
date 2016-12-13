@@ -1,0 +1,284 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    background-color: #9bc6f7;
+    font-family: Sans-Serif;
+    text-align: center;
+    color: #2c3438;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: absolute;
+}
+
+h1 {
+    font-weight: 600;
+}
+
+.button h1 {
+    color: #fff;
+    line-height: 60px;
+}
+
+.backtomain {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #2c3438;
+    //z-index: 3000;
+    transition: all 0.15s 0.05s ease-in-out;
+    top: 5px;
+    right: 100px;
+}
+
+.backtomain:hover {
+    background-color: #564e76;
+    cursor: pointer;
+}
+
+a:link {
+    color: #2c3438;
+}
+
+a:visited {
+    color: #2c3438;
+}
+
+a:hover {
+    color: #564e76;
+}
+
+a:active {
+    color: #2c3438;
+}
+
+.backtomain::after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 20px 10px 0;
+    border-color: transparent #fff transparent transparent;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-60%, -50%);
+}
+
+.backtomain h1 {
+    line-height: 50px;
+    text-align: left;
+    position: absolute;
+    left: 55px;
+    margin: 0;
+}
+
+.bckgr {
+    background-image: url(img/tankmanbckgr.svg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1000;
+    position: absolute;
+}
+
+svg {
+    z-index: 10000;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    overflow: visible;
+    max-height: 90vh;
+    min-width: 40em;
+}
+
+#soldier_head {
+    position: absolute;
+    animation: headbob 4s infinite ease-in-out;
+}
+
+@keyframes headbob {
+    0% {
+        transform: translateY(0)
+    }
+    30% {
+        transform: translateY(0)
+    }
+    47% {
+        transform: translateY(-1em)
+    }
+    70% {
+        transform: translateY(-1em)
+    }
+    80% {
+        transform: translateY(0)
+    }
+    100% {
+        transform: translateY(0)
+    }
+}
+
+#antenna {
+    position: absolute;
+    transform-origin: bottom center;
+    animation: antenna 1s infinite ease-in-out;
+}
+
+@keyframes antenna {
+    0% {
+        transform: rotate(-0.5deg)
+    }
+    50% {
+        transform: rotate(0.5deg)
+    }
+    100% {
+        transform: rotate(-0.5deg)
+    }
+}
+
+#antenna2 {
+    position: absolute;
+    transform-origin: bottom center;
+    animation: antenna 1s 0.3s infinite ease-in-out;
+}
+
+#barrel {
+    position: absolute;
+    transform-origin: right center;
+    animation: barrel 10s infinite ease-in-out;
+}
+
+@keyframes barrel {
+    0% {
+        transform: rotate(15deg)
+    }
+    0.0000001% {
+        transform: rotate(15.0001deg)
+    }
+    18% {
+        transform: rotate(15deg)
+    }
+    25% {
+        transform: rotate(-10deg)
+    }
+    26% {
+        transform: rotate(-8.5deg)
+    }
+    28% {
+        transform: rotate(-9deg)
+    }
+    80% {
+        transform: rotate(-9deg)
+    }
+    87% {
+        transform: rotate(16deg)
+    }
+    88% {
+        transform: rotate(14.5deg)
+    }
+    90% {
+        transform: rotate(15deg)
+    }
+    100% {
+        transform: rotate(15deg)
+    }
+}
+
+#arm_r_TOP {
+    position: absolute;
+    transform-origin: top left;
+    animation: armrt 6s infinite ease-in-out;
+}
+
+@keyframes armrt {
+    0% {
+        transform: rotate(3deg)
+    }
+    0.0000001% {
+        transform: rotate(3.0001deg)
+    }
+    40% {
+        transform: rotate(-3deg)
+    }
+    
+    100% {
+        transform: rotate(3deg)
+    }
+}
+
+#hand_r {
+    position: absolute;
+    transform-origin: top left;
+    animation: handr 6s -0.3s infinite ease-in-out;
+}
+
+@keyframes handr {
+    0% {
+        transform: rotate(-5deg)
+    }
+    0.0000001% {
+        transform: rotate(-5.0001deg)
+    }
+    40% {
+        transform: rotate(5deg)
+    }
+    
+    100% {
+        transform: rotate(-5deg)
+    }
+}
+
+
+
+
+#arm_l_TOP {
+    position: absolute;
+    transform-origin: top right;
+    animation: armlt 6s infinite ease-in-out;
+}
+
+@keyframes armlt {
+    0% {
+        transform: rotate(-3deg)
+    }
+    0.0000001% {
+        transform: rotate(-3.0001deg)
+    }
+    40% {
+        transform: rotate(3deg)
+    }
+    
+    100% {
+        transform: rotate(-3deg)
+    }
+}
+
+#hand_l {
+    position: absolute;
+    transform-origin: top left;
+    animation: handl 6s -0.3s infinite ease-in-out;
+}
+
+@keyframes handl {
+    0% {
+        transform: rotate(5deg)
+    }
+    0.0000001% {
+        transform: rotate(5.0001deg)
+    }
+    40% {
+        transform: rotate(-5deg)
+    }
+    
+    100% {
+        transform: rotate(5deg)
+    }
+}
+
+
