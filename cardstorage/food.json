@@ -13,6 +13,188 @@
         "plural": "kurkut",
         "genitive": "kurkun",
         "partitive": "kurkkua"
+    },
+    {
+        "eng": "food",
+        "nominative": "ruoka",
+        "plural": "ruoat",
+        "genitive": "ruoan",
+        "partitive": "ruokaa"
+    },
+    {
+        "eng": "dessert",
+        "nominative": "jälkiruoka",
+        "plural": "jälkiruoat",
+        "genitive": "jälkiruoan",
+        "partitive": "jälkiruokaa"
+    },
+    {
+        "eng": "juice",
+        "nominative": "mehu",
+        "plural": "mehut",
+        "genitive": "mehun",
+        "partitive": "mehua"
+    },
+    {
+        "eng": "milk",
+        "nominative": "maito",
+        "plural": "maidot",
+        "genitive": "maidon",
+        "partitive": "maitoa"
+    },
+    {
+        "eng": "tea",
+        "nominative": "tee",
+        "plural": "teet",
+        "genitive": "teen",
+        "partitive": "teetä"
+    },
+    {
+        "eng": "coffee",
+        "nominative": "kahvi",
+        "plural": "kahvit",
+        "genitive": "kahvin",
+        "partitive": "kahvia"
+    },
+    {
+        "eng": "water",
+        "nominative": "vesi",
+        "plural": "vedet",
+        "genitive": "veden",
+        "partitive": "vettä"
+    },
+    {
+        "eng": "grape",
+        "nominative": "viinirypäle",
+        "plural": "viinirypäleet",
+        "genitive": "viinirypäleen",
+        "partitive": "viinirypälettä"
+    },
+    {
+        "eng": "orange",
+        "nominative": "appelsiini",
+        "plural": "appelsiinit",
+        "genitive": "appelsiinin",
+        "partitive": "appelsiinia"
+    },
+    {
+        "eng": "broccoli",
+        "nominative": "parsakaali",
+        "plural": "parsakaalit",
+        "genitive": "parsakaalin",
+        "partitive": "parsakaalia"
+    },
+    {
+        "eng": "cabbage",
+        "nominative": "kaali",
+        "plural": "kaalit",
+        "genitive": "kaalin",
+        "partitive": "kaalia"
+    },
+    {
+        "eng": "carrot",
+        "nominative": "porkkana",
+        "plural": "porkkanat",
+        "genitive": "porkkanan",
+        "partitive": "porkkanaa"
+    },
+    {
+        "eng": "meat",
+        "nominative": "liha",
+        "plural": "lihat",
+        "genitive": "lihan",
+        "partitive": "lihaa"
+    },
+    {
+        "eng": "fish",
+        "nominative": "kala",
+        "plural": "kalat",
+        "genitive": "kalan",
+        "partitive": "kalaa"
+    },
+    {
+        "eng": "egg",
+        "nominative": "muna",
+        "plural": "munat",
+        "genitive": "munan",
+        "partitive": "munaa"
+    },
+    {
+        "eng": "potato",
+        "nominative": "peruna",
+        "plural": "perunat",
+        "genitive": "perunan",
+        "partitive": "perunaa"
+    },
+    {
+        "eng": "cake",
+        "nominative": "kakku",
+        "plural": "kakut",
+        "genitive": "kakun",
+        "partitive": "kakkua"
+    },
+    {
+        "eng": "bread",
+        "nominative": "leipä",
+        "plural": "leivät",
+        "genitive": "leivän",
+        "partitive": "leipää"
+    },
+    {
+        "eng": "butter",
+        "nominative": "voi",
+        "plural": "voit",
+        "genitive": "voin",
+        "partitive": "voita"
+    },
+    {
+        "eng": "cheese",
+        "nominative": "juusto",
+        "plural": "juustot",
+        "genitive": "juuston",
+        "partitive": "juustoa"
+    },
+    {
+        "eng": "onion",
+        "nominative": "sipuli",
+        "plural": "sipulit",
+        "genitive": "sipulin",
+        "partitive": "sipulia"
+    },
+    {
+        "eng": "pizza",
+        "nominative": "pitsa",
+        "plural": "pitsat",
+        "genitive": "pitsan",
+        "partitive": "pitsaa"
+    },
+    {
+        "eng": "pasta",
+        "nominative": "pasta",
+        "plural": "pastat",
+        "genitive": "pastan",
+        "partitive": "pastaa"
+    },
+    {
+        "eng": "soup",
+        "nominative": "keitto",
+        "plural": "keitot",
+        "genitive": "keiton",
+        "partitive": "keittoa"
+    },
+    {
+        "eng": "stew",
+        "nominative": "pata",
+        "plural": "padat",
+        "genitive": "padan",
+        "partitive": "pataa"
+    },
+    {
+        "eng": "sauce",
+        "nominative": "kastike",
+        "plural": "kastikkeet",
+        "genitive": "kastikkeen",
+        "partitive": "kastiketta"
     }
 ]
 }

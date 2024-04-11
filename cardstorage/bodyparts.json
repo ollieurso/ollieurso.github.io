@@ -8,11 +8,130 @@
         "partitive": "päätä"
     },
     {
+        "eng": "eye",
+        "nominative": "silmä",
+        "plural": "silmät",
+        "genitive": "silmän",
+        "partitive": "silmää"
+    },
+    {
+        "eng": "nose",
+        "nominative": "nenä",
+        "plural": "nenät",
+        "genitive": "nenän",
+        "partitive": "nenää"
+    },
+    {
+        "eng": "mouth",
+        "nominative": "suu",
+        "plural": "suut",
+        "genitive": "suun",
+        "partitive": "suuta"
+    },
+    {
+        "eng": "ear",
+        "nominative": "korva",
+        "plural": "korvat",
+        "genitive": "korvan",
+        "partitive": "korvaa"
+    },
+    {
+        "eng": "neck",
+        "nominative": "kaula",
+        "plural": "kaulat",
+        "genitive": "kaulan",
+        "partitive": "kaulaa"
+    },
+    {
+        "eng": "scalp",
+        "nominative": "niska",
+        "plural": "niskat",
+        "genitive": "niskan",
+        "partitive": "niskaa"
+    },
+    {
+        "eng": "shoulder",
+        "nominative": "olkapää",
+        "plural": "olkapäät",
+        "genitive": "olkapään",
+        "partitive": "olkapäätä"
+    },
+    {
+        "eng": "back",
+        "nominative": "selkä",
+        "plural": "selät",
+        "genitive": "selän",
+        "partitive": "selkää"
+    },
+    {
+        "eng": "chest",
+        "nominative": "rinta",
+        "plural": "rinnat",
+        "genitive": "rinnan",
+        "partitive": "rintaa"
+    },
+    {
+        "eng": "stomach",
+        "nominative": "vatsa",
+        "plural": "vatsat",
+        "genitive": "vatsan",
+        "partitive": "vatsaa"
+    },
+    {
+        "eng": "tummy",
+        "nominative": "maha",
+        "plural": "mahat",
+        "genitive": "mahan",
+        "partitive": "mahaa"
+    },
+    {
+        "eng": "arm",
+        "nominative": "käsivarsi",
+        "plural": "käsivarret",
+        "genitive": "käsivarren",
+        "partitive": "käsivartta"
+    },
+    {
+        "eng": "hand",
+        "nominative": "käsi",
+        "plural": "kädet",
+        "genitive": "käden",
+        "partitive": "kättä"
+    },
+    {
+        "eng": "finger",
+        "nominative": "sormi",
+        "plural": "sormet",
+        "genitive": "sormen",
+        "partitive": "sormea"
+    },
+    {
         "eng": "leg",
         "nominative": "jalka",
         "plural": "jalat",
         "genitive": "jalan",
         "partitive": "jalkaa"
+    },
+    {
+        "eng": "knee",
+        "nominative": "polvi",
+        "plural": "polvet",
+        "genitive": "polven",
+        "partitive": "polvea"
+    },
+    {
+        "eng": "ankle",
+        "nominative": "nilkka",
+        "plural": "nilkat",
+        "genitive": "nilkan",
+        "partitive": "nilkkaa"
+    },
+    {
+        "eng": "toe",
+        "nominative": "varvas",
+        "plural": "varpaat",
+        "genitive": "varpaan",
+        "partitive": "varvasta"
     }
 ]
 }

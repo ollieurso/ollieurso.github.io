@@ -18,6 +18,56 @@
         "me": "kävelemme",
         "te": "kävelette",
         "he": "kävelevät"
+    },
+    {
+        "eng": "to ride",
+        "basic form": "ratsastaa",
+        "minä": "ratsastan",
+        "sinä": "ratsastat",
+        "hän": "ratsastaa",
+        "me": "ratsastamme",
+        "te": "ratsastatte",
+        "he": "ratsastavat"
+    },
+    {
+        "eng": "to drive",
+        "basic form": "ajaa",
+        "minä": "ajan",
+        "sinä": "ajat",
+        "hän": "ajaa",
+        "me": "ajamme",
+        "te": "ajatte",
+        "he": "ajavat"
+    },
+    {
+        "eng": "to visit",
+        "basic form": "käydä",
+        "minä": "käyn",
+        "sinä": "käyt",
+        "hän": "käy",
+        "me": "käymme",
+        "te": "käytte",
+        "he": "käyvät"
+    },
+    {
+        "eng": "to run",
+        "basic form": "juosta",
+        "minä": "juoksen",
+        "sinä": "juokset",
+        "hän": "juoksee",
+        "me": "juoksemme",
+        "te": "juoksette",
+        "he": "juoksevat"
+    },
+    {
+        "eng": "to jump",
+        "basic form": "hypätä",
+        "minä": "hyppään",
+        "sinä": "hyppäät",
+        "hän": "hyppää",
+        "me": "hyppäämme",
+        "te": "hyppäätte",
+        "he": "hyppäävät"
     }
 ]
 }
