@@ -260,7 +260,7 @@ function checkIfCorrect(){
     nextQuestionOK = true;
     //console.log(nextQuestionOK);
     var answer = $(inputTextBox).val();
-    if(answer == randomAnswer){
+    if(answer.toLowerCase() === randomAnswer.toLowerCase()){
         answerIsCorrect = true;
     }else{
     answerIsCorrect = false;
