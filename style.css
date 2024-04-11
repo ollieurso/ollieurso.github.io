@@ -1,0 +1,105 @@
+/* Basic styling */
+
+html,
+html * {
+    margin: 0;
+    font-family: "Verdana", Helvetica, Arial, sans-serif;
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column
+}
+
+footer {
+    margin: auto 0 0 0;
+    padding: 30px 20px 30px;
+    background-color: peachpuff
+}
+
+h1 {
+    text-align: center;
+    font-size: 7vw;
+    font-weight: bold;
+    margin: 3vw 0 4vw
+}
+
+
+h2 {
+    text-align: center;
+    font-size: 3vw;
+    font-weight: normal;
+    margin: 20px 0 25px
+}
+
+button, input[type="button"] {
+    text-align: center;
+    margin: 0 0 12px;
+    padding: 15px;
+    border-style: none;
+    border-radius: 3px;
+    background-color: coral;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="checkbox"] {
+    margin-right: 40px
+}
+
+#letsgo {
+    position: relative;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+        -ms-transform: translate(-50%, 0);
+            transform: translate(-50%, 0)
+}
+
+#header {
+    margin: 20px;
+}
+
+select {
+    padding: 10px;
+    margin: 20px 0;
+    background-color: coral;
+    border-style: none;
+    border-radius: 3px;
+    color: white;
+}
+
+#cardContain {
+    position: relative;
+    padding: 40px 20px 45px;
+    background-color: peachpuff;
+    margin: 5vw 20vw;
+    border-radius: 20px;
+}
+
+#testBtn {
+    display: none
+}
+
+#alphabet1, #alphabet2{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    padding: 0px;
+    left: -55px;
+    margin: 0;
+    top: 50%;
+}
+
+#alphabet1 {
+    -webkit-transform: translate(0, -45px);
+        -ms-transform: translate(0, -45px);
+            transform: translate(0, -45px)
+}
+
+#alphabet2 {
+    -webkit-transform: translate(0, 5px);
+        -ms-transform: translate(0, 5px);
+            transform: translate(0, 5px)
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Opitaan</title>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <main>
+        <top>
+        <div id="header">
+            <p>Valitse, mitä haluat oppia-</p>
+            <select id="dropdown">
+                <option value="food">Food</option>
+                <option value="bodyparts">Body Parts</option>
+                <option value="moving">Moving verbs</option>
+            </select>
+            <div id="checkboxes-noun">
+                <label for="nomiCheck">Nominative</label>
+                <input type="checkbox" id="nomiCheck" name="nomiCheck" checked>
+                <label for="plurCheck">Plural</label>
+                <input type="checkbox" id="plurCheck" name="plurCheck" checked>
+                <label for="geniCheck">Genitive</label>
+                <input type="checkbox" id="geniCheck" name="geniCheck" checked>
+                <label for="partCheck">Partitive</label>
+                <input type="checkbox" id="partCheck" name="partCheck" checked>
+            </div>
+            <div id="checkboxes-verb">
+                <label for="baseCheck">Basic form</label>
+                <input type="checkbox" id="baseCheck" name="baseCheck" checked>
+                <label for="persCheck">Person forms</label>
+                <input type="checkbox" id="persCheck" name="persCheck" checked>
+            </div>
+            <input type="button" value="test" id="testBtn">
+        </div>
+        </top>
+        <div id="cardContain">
+            <input type="button" value="Ä" id="alphabet1">
+            <input type="button" value="Ö" id="alphabet2">
+            <label for="answerBox" id="questionText">Question?</label><br><br>
+            <input type="text" id="answerBox" name="answerBox"><br><br>
+            <p id="correctAnswerText">Testing testing</p><br>
+            <input type="button" value="Check" id="answerCheckButton">
+            <input type="button" value="Next" id="nextQuestionButton">
+        </div>
+        <footer>
+            <a href="/index.html"><button id="back">Home</button></a>
+            <p>Ollie Urso, 2024. Pure spaghetti, but it works.</p>
+        </footer> 
+    </main>
+    
+</body>
+
+<script src="flashcard-logic.js"></script>
+</html>

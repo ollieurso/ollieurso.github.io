@@ -1,0 +1,18 @@
+{"noun":
+[
+    {
+        "eng": "apple",
+        "nominative": "omena",
+        "plural": "omenat",
+        "genitive": "omenan",
+        "partitive": "omenaa"
+    },
+    {
+        "eng": "cucumber",
+        "nominative": "kurkku",
+        "plural": "kurkut",
+        "genitive": "kurkun",
+        "partitive": "kurkkua"
+    }
+]
+}

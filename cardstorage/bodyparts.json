@@ -1,0 +1,18 @@
+{"noun":
+[
+    {
+        "eng": "head",
+        "nominative": "pää",
+        "plural": "päät",
+        "genitive": "pään",
+        "partitive": "päätä"
+    },
+    {
+        "eng": "leg",
+        "nominative": "jalka",
+        "plural": "jalat",
+        "genitive": "jalan",
+        "partitive": "jalkaa"
+    }
+]
+}
