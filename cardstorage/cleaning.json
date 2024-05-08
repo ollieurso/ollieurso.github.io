@@ -1,0 +1,193 @@
+{"verb":[
+    {
+        "eng": "to organize",
+        "basic form": "järjestää",
+        "minä": "järjestän",
+        "sinä": "järjestät",
+        "hän": "järjestää",
+        "me": "järjestämme",
+        "te": "järjestätte",
+        "he": "järjestävät"
+    },
+    {
+        "eng": "to dry",
+        "basic form": "kuivata",
+        "minä": "kuivaan",
+        "sinä": "kuivaat",
+        "hän": "kuivaa",
+        "me": "kuivaamme",
+        "te": "kuivaatte",
+        "he": "kuivaavat"
+    },
+    {
+        "eng": "to fold",
+        "basic form": "viikata",
+        "minä": "viikkaan",
+        "sinä": "viikkaat",
+        "hän": "viikkaa",
+        "me": "viikkaamme",
+        "te": "viikkaatte",
+        "he": "viikkaavat"
+    },
+    {
+        "eng": "to sweep",
+        "basic form": "lakaista",
+        "minä": "lakaisen",
+        "sinä": "lakaiset",
+        "hän": "lakaisee",
+        "me": "lakaisemme",
+        "te": "lakaisette",
+        "he": "lakaisevat"
+    },
+    {
+        "eng": "to wash",
+        "basic form": "pestä",
+        "minä": "pesen",
+        "sinä": "peset",
+        "hän": "pesee",
+        "me": "pesemme",
+        "te": "pesette",
+        "he": "pesevät"
+    },
+    {
+        "eng": "to vacuum",
+        "basic form": "imuroida",
+        "minä": "imuroin",
+        "sinä": "imuroit",
+        "hän": "imuroi",
+        "me": "imuroimme",
+        "te": "imuroitte",
+        "he": "imuroivat"
+    },
+    {
+        "eng": "to iron",
+        "basic form": "silittää",
+        "minä": "silitän",
+        "sinä": "silität",
+        "hän": "silittää",
+        "me": "silitämme",
+        "te": "silitätte",
+        "he": "silittävät"
+    },
+    {
+        "eng": "to wipe",
+        "basic form": "pyyhkiä",
+        "minä": "pyyhin",
+        "sinä": "pyyhit",
+        "hän": "pyyhkii",
+        "me": "pyyhimme",
+        "te": "pyyhitte",
+        "he": "pyyhkivät"
+    },
+    {
+        "eng": "to clean - specific item",
+        "basic form": "puhdistaa",
+        "minä": "puhdistan",
+        "sinä": "puhdistat",
+        "hän": "puhdistaa",
+        "me": "puhdistamme",
+        "te": "puhdistatte",
+        "he": "puhdistavat"
+    },
+    {
+        "eng": "to clean - general",
+        "basic form": "siivota",
+        "minä": "siivoan",
+        "sinä": "siivoat",
+        "hän": "siivoaa",
+        "me": "siivoamme",
+        "te": "siivoatte",
+        "he": "siivoavat"
+    },
+    {
+        "eng": "to spray",
+        "basic form": "suihkuttaa",
+        "minä": "suihkutan",
+        "sinä": "suihkutat",
+        "hän": "suihkuttaa",
+        "me": "suihkutamme",
+        "te": "suihkutatte",
+        "he": "suihkuttavat"
+    },
+    {
+        "eng": "to polish",
+        "basic form": "kiillottaa",
+        "minä": "kiillotan",
+        "sinä": "kiillotat",
+        "hän": "kiillottaa",
+        "me": "kiillotamme",
+        "te": "kiillotatte",
+        "he": "kiillottavat"
+    },
+    {
+        "eng": "to scrub",
+        "basic form": "hangata",
+        "minä": "hankaan",
+        "sinä": "hankaat",
+        "hän": "hankaa",
+        "me": "hankaamme",
+        "te": "hankaatte",
+        "he": "hankaavat"
+    },
+    {
+        "eng": "to mop",
+        "basic form": "mopata",
+        "minä": "moppaan",
+        "sinä": "moppaat",
+        "hän": "moppaa",
+        "me": "moppaamme",
+        "te": "moppaatte",
+        "he": "moppaavat"
+    },
+    {
+        "eng": "to dose",
+        "basic form": "annostella",
+        "minä": "annostelen",
+        "sinä": "annostelet",
+        "hän": "annostelee",
+        "me": "annostelemme",
+        "te": "annostelette",
+        "he": "annostelevat"
+    },
+    {
+        "eng": "to measure",
+        "basic form": "mitata",
+        "minä": "mittaan",
+        "sinä": "mittaat",
+        "hän": "mittaa",
+        "me": "mittaamme",
+        "te": "mittaatte",
+        "he": "mittaavat"
+    },
+    {
+        "eng": "to empty",
+        "basic form": "tyhjentää",
+        "minä": "tyhjennän",
+        "sinä": "tyhjennät",
+        "hän": "tyhjentää",
+        "me": "tyhjennämme",
+        "te": "tyhjennätte",
+        "he": "tyhjentävät"
+    },
+    {
+        "eng": "to brush",
+        "basic form": "harjata",
+        "minä": "harjaan",
+        "sinä": "harjaat",
+        "hän": "harjaa",
+        "me": "harjaamme",
+        "te": "harjaatte",
+        "he": "harjaavat"
+    },
+    {
+        "eng": "to rinse",
+        "basic form": "huuhdella",
+        "minä": "huuhtelen",
+        "sinä": "huuhtelet",
+        "hän": "huuhtelee",
+        "me": "huuhtelemme",
+        "te": "huuhtelette",
+        "he": "huuhtelevat"
+    }
+]
+}
