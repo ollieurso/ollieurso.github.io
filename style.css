@@ -42,6 +42,7 @@ button, input[type="button"] {
     background-color: coral;
     color: white;
     cursor: pointer;
+    font-size: 18px;
 }
 
 input[type="checkbox"] {
@@ -75,7 +76,11 @@ select {
     background-color: peachpuff;
     margin: 5vw 20vw;
     border-radius: 20px;
-    font-size: 16px;
+    font-size: 18px;
+}
+
+input[type="text"] {
+    font-size: 26px;
 }
 
 #testBtn {
@@ -84,9 +89,9 @@ select {
 
 #alphabet1, #alphabet2{
     position: absolute;
-    width: 40px;
-    height: 40px;
-    font-size: 20px;
+    width: 45px;
+    height: 45px;
+    font-size: 30px;
     padding: 0px;
     left: -55px;
     margin: 0;
@@ -94,13 +99,13 @@ select {
 }
 
 #alphabet1 {
-    -webkit-transform: translate(0, -45px);
-        -ms-transform: translate(0, -45px);
-            transform: translate(0, -45px)
+    -webkit-transform: translate(0, -55px);
+        -ms-transform: translate(0, -55px);
+            transform: translate(0, -55px)
 }
 
 #alphabet2 {
-    -webkit-transform: translate(0, 5px);
-        -ms-transform: translate(0, 5px);
-            transform: translate(0, 5px)
+    -webkit-transform: translate(0, 15px);
+        -ms-transform: translate(0, 15px);
+            transform: translate(0, 15px)
 }
