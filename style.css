@@ -75,6 +75,7 @@ select {
     background-color: peachpuff;
     margin: 5vw 20vw;
     border-radius: 20px;
+    font-size: 16px;
 }
 
 #testBtn {
