@@ -1,0 +1,221 @@
+{"noun":
+[
+    {
+        "eng": "mop",
+        "nominative": "moppi",
+        "plural": "mopit",
+        "genitive": "mopin",
+        "partitive": "moppia"
+    },
+    {
+        "eng": "brush",
+        "nominative": "harja",
+        "plural": "harjat",
+        "genitive": "harjan",
+        "partitive": "harjaa"
+    },
+    {
+        "eng": "window washer",
+        "nominative": "ikkunanpesin",
+        "plural": "ikkunapesimet",
+        "genitive": "ikkunapesimen",
+        "partitive": "ikkunapesintä"
+    },
+    {
+        "eng": "window squeegee",
+        "nominative": "ikkunankuivain",
+        "plural": "ikkunakuivaimet",
+        "genitive": "ikkunakuivaimen",
+        "partitive": "ikkunakuivainta"
+    },
+    {
+        "eng": "towel",
+        "nominative": "pyyhe",
+        "plural": "pyyhkeet",
+        "genitive": "pyyhkeen",
+        "partitive": "pyyhettä"
+    },
+    {
+        "eng": "floor squeegee",
+        "nominative": "lattiankuivain",
+        "plural": "lattiakuivaimet",
+        "genitive": "lattiakuivaimen",
+        "partitive": "lattiakuivainta"
+    },
+    {
+        "eng": "floor towel",
+        "nominative": "lattiapyyhe",
+        "plural": "lattiapyyhkeet",
+        "genitive": "lattiapyyhkeen",
+        "partitive": "lattiapyyhettä"
+    },
+    {
+        "eng": "handle",
+        "nominative": "välinevarsi",
+        "plural": "välinevarret",
+        "genitive": "välinevarren",
+        "partitive": "välinevartta"
+    },
+    {
+        "eng": "adjustable handle",
+        "nominative": "säätövarsi",
+        "plural": "säätövarret",
+        "genitive": "säätövarren",
+        "partitive": "säätövartta"
+    },
+    {
+        "eng": "cleaning cloth",
+        "nominative": "siivousliina",
+        "plural": "siivousliinat",
+        "genitive": "siivousliinan",
+        "partitive": "siivousliinaa"
+    },
+    {
+        "eng": "furniture mop",
+        "nominative": "kalustemoppi",
+        "plural": "kalustemopit",
+        "genitive": "kalustemopin",
+        "partitive": "kalustemoppia"
+    },
+    {
+        "eng": "hand mop",
+        "nominative": "käsimoppi",
+        "plural": "käsimopit",
+        "genitive": "käsimopin",
+        "partitive": "käsimoppia"
+    },
+    {
+        "eng": "dustpan",
+        "nominative": "rikkalapio",
+        "plural": "rikkalapiot",
+        "genitive": "rikkalapion",
+        "partitive": "rikkalapiota"
+    },
+    {
+        "eng": "cleaning trolley",
+        "nominative": "siivousvaunu",
+        "plural": "siivousvaunut",
+        "genitive": "siivousvaunun",
+        "partitive": "siivousvaunua"
+    },
+    {
+        "eng": "dosing bottle",
+        "nominative": "annostelupullo",
+        "plural": "annostelupullot",
+        "genitive": "annostelupullon",
+        "partitive": "annostelupulloa"
+    },
+    {
+        "eng": "bucket",
+        "nominative": "sanko",
+        "plural": "sangot",
+        "genitive": "sangon",
+        "partitive": "sankoa"
+    },
+    {
+        "eng": "duster",
+        "nominative": "pölyhuiska",
+        "plural": "pölyhuiskat",
+        "genitive": "pölyhuiskan",
+        "partitive": "pölyhuiskaa"
+    },
+    {
+        "eng": "microfiber cloth",
+        "nominative": "mikrokuitupyyhe",
+        "plural": "mikrokuitupyyhkeet",
+        "genitive": "mikrokuitupyyhkeen",
+        "partitive": "mikrokuitupyyhettä"
+    },
+    {
+        "eng": "scrubbing sponge",
+        "nominative": "hankaussieni",
+        "plural": "hankaussienet",
+        "genitive": "hankaussienen",
+        "partitive": "hankaussientä"
+    },
+    {
+        "eng": "vacuum cleaner",
+        "nominative": "imuri",
+        "plural": "imurit",
+        "genitive": "imurin",
+        "partitive": "imuria"
+    },
+    {
+        "eng": "combination machine",
+        "nominative": "yhdistelmäkone",
+        "plural": "yhdistelmäkoneet",
+        "genitive": "yhdistelmäkoneen",
+        "partitive": "yhdistelmäkonetta"
+    },
+    {
+        "eng": "single disc floor care machine",
+        "nominative": "lattianhoitokone",
+        "plural": "lattianhoitokoneet",
+        "genitive": "lattianhoitokoneen",
+        "partitive": "lattianhoitokonetta"
+    },
+    {
+        "eng": "protective gloves",
+        "nominative": "suojakäsine",
+        "plural": "suojakäsineet",
+        "genitive": "suojakäsineen",
+        "partitive": "suojakäsinettä"
+    },
+    {
+        "eng": "garbage bag",
+        "nominative": "jätesäkki",
+        "plural": "jätesäkit",
+        "genitive": "jätesäkin",
+        "partitive": "jätesäkkiä"
+    },
+    {
+        "eng": "mop frame",
+        "nominative": "levykehys",
+        "plural": "levykehykset",
+        "genitive": "levykehyksen",
+        "partitive": "levykehystä"
+    },
+    {
+        "eng": "cleaning agent",
+        "nominative": "pesuaine",
+        "plural": "pesuaineet",
+        "genitive": "pesuaineen",
+        "partitive": "pesuainetta"
+    },
+    {
+        "eng": "hand paper",
+        "nominative": "käsipaperi",
+        "plural": "käsipaperit",
+        "genitive": "käsipaperin",
+        "partitive": "käsipaperia"
+    },
+    {
+        "eng": "spray bottle",
+        "nominative": "suihkepullo",
+        "plural": "suihkepullot",
+        "genitive": "suihkepullon",
+        "partitive": "suihkepulloa"
+    },
+    {
+        "eng": "tumble dryer",
+        "nominative": "kuivausrumpu",
+        "plural": "kuivausrummut",
+        "genitive": "kuivausrummun",
+        "partitive": "kuivausrumpua"
+    },
+    {
+        "eng": "washing machine",
+        "nominative": "pesukone",
+        "plural": "pesukoneet",
+        "genitive": "pesukoneen",
+        "partitive": "pesukonetta"
+    },
+    {
+        "eng": "scrubbing mop",
+        "nominative": "hankausmoppi",
+        "plural": "hankausmopit",
+        "genitive": "hankausmopin",
+        "partitive": "hankausmoppia"
+    }
+]
+}
