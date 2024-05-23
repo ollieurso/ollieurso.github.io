@@ -176,7 +176,7 @@ $(nextQuestionButton).click(function(){
 
 
 /*
-//on hitting enter if the state is correct
+on hitting enter if the state is correct
 $(document).keydown(function(e){
         var keycode = (event.keyCode ? event.keyCode : event.which);
         if(keycode == 13){
@@ -259,7 +259,9 @@ function checkIfCorrect(){
     $(nextQuestionButton).css('display', 'block');
     nextQuestionOK = true;
     //console.log(nextQuestionOK);
-    var answer = $(inputTextBox).val();
+    
+    //Gets value from textbox and removes trims extra spaces, compares them in lowercase to remove case sensitivity
+    var answer = $(inputTextBox).val().replace(/\s+/g, " ").replace(/^\s|\s$/g, "");
     if(answer.toLowerCase() === randomAnswer.toLowerCase()){
         answerIsCorrect = true;
     }else{
