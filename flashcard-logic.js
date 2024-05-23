@@ -114,10 +114,10 @@ function pickQuestion(){
     cardContain.style.background = defaultColor;
     $(inputTextBox).val("");
     $(inputTextBox).show();
+    $(inputTextBox).focus();
     $(feedbackText).hide();
     $(nextQuestionButton).css('display', 'none');
     $(answerCheckButton).css('display', 'block');
-    nextQuestionOK = false;
     //console.log(nextQuestionOK);
     if (arrayType == 'noun'){
         nounRandomizer();
@@ -167,6 +167,20 @@ function verbRandomizer(){
 };
 
 
+//ENTER BUTTON FUNCTIONALITY FOR BOTH CHECKING ANSWER AND GETTING NEW QUESTION
+$(document).keydown(function(e){
+        if(e.which === 13){
+            var tempTextString = $(inputTextBox).val();
+                if(($(inputTextBox).is(":focus")) && (nextQuestionOK == false) && !(tempTextString === "")){
+                    checkIfCorrect();
+                }else if(!($(inputTextBox).is(":focus")) && (nextQuestionOK)){
+                    nextQuestion();
+                }else {
+                    return;
+                }  
+        }
+    });
+
 
 //GETTING A NEW QUESTION AND ALL THAT
 //on button click
@@ -175,40 +189,6 @@ $(nextQuestionButton).click(function(){
 });
 
 
-/*
-on hitting enter if the state is correct
-$(document).keydown(function(e){
-        var keycode = (event.keyCode ? event.keyCode : event.which);
-        if(keycode == 13){
-            if(enterKeyDown[13] == null){
-                if(nextQuestionOK && inputTextBoxFocused){
-                    checkIfCorrect();
-                
-                }else{
-                    nextQuestion();
-                };
-                
-                enterKeyDown[13] = true;
-            } 
-        }
-    });
-
-$(document).keyup(function (e) {
-        var keycode = (event.keyCode ? event.keyCode : event.which);
-        enterKeyDown[keycode] = null;
-    });
-
-
-$(inputTextBox).focus(function(){
-    inputTextBoxFocused = true;
-    console.log(inputTextBoxFocused);
-});
-
-$(inputTextBox).blur(function(){
-    inputTextBoxFocused = false;
-    console.log(inputTextBoxFocused);
-});
-*/
 
 function nextQuestion(){
     //console.log('NEXT BUTTON click');
@@ -227,6 +207,7 @@ function nextQuestion(){
     }
     }
     //running the function that branches between noun/verb picking and then picks a valid question and answer
+    nextQuestionOK = false;
     pickQuestion();
 };
 
@@ -236,19 +217,8 @@ function nextQuestion(){
 $(answerCheckButton).click(function(){
     checkIfCorrect();
 })
-//on hitting enter if the textbox is selected
-$(inputTextBox).on('keydown', function (e) {
-         if(e.which === 13){
-             checkIfCorrect();
-            //Disable textbox to prevent multiple submit
-            //$(this).attr("disabled", "disabled");
 
-            //Do Stuff, submit, etc..
 
-            //Enable the textbox again if needed.
-            //$(this).removeAttr("disabled");
-         }
-   });
 
 function checkIfCorrect(){
     //console.log('CHECK BUTTON click');
